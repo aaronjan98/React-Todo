@@ -22,7 +22,7 @@ class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      todoDataList: todoData,
+      todoDataList: todoData
     };
   }
 
