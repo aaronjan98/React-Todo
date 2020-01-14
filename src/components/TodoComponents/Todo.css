@@ -1,27 +1,80 @@
 .notcompleted {
   width: 45%;
-  margin: 4px 0;
-  padding-left: 8px;
+  /* margin-bottom: 4px; */
+  padding-left: 4px;
   cursor: pointer;
 }
 
 .completed {
   width: 45%;
-  margin: 4px 0;
-  padding-left: 8px;
+  /* margin-bottom: 4px; */
+  padding-left: 4px;
   cursor: pointer;
   text-decoration: line-through;
 }
-/* .App {
+.App {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-} */
-/* .todo-list {
+}
+.inner-App {
+  display: flex;
+  flex-direction: column;
+}
+.TodoForm {
+  display: flex;
+  flex-direction: row;
+}
+
+.TodoForm input {
+  width: 85%;
+  height: 27px;
+  font-size: 1.8rem;
+  border-radius: 5px;
+  padding: 5px;
+  background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+.todoList {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-} */
+}
+.add-btn {
+  color: white;
+  border: rgb(34, 34, 66) 1px solid;
+  height: 100%;
+  width: auto;
+  font-size: 1.4rem;
+  border-radius: 5px;
+  margin: 5px;
+  margin-left: 10px;
+  background-image: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
+}
+.clear-btn {
+  color: white;
+  border: rgb(34, 34, 66) 1px solid;
+  margin-top: 10px;
+  height: 100%;
+  width: auto;
+  font-size: 1.4rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-image: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/snowyMtn.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+}
